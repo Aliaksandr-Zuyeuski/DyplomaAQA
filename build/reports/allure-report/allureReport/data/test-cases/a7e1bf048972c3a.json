@@ -1,0 +1,279 @@
+{
+  "uid" : "a7e1bf048972c3a",
+  "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 2 месяца), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+  "fullName" : "ru.netology.TourPaymentService.test.FieldValidationTest.shouldValidationErrorCardValidityDateFieldPlus62Months",
+  "historyId" : "1384a1886b4a615d062b8f23ae7fb835",
+  "time" : {
+    "start" : 1669658583851,
+    "stop" : 1669658585580,
+    "duration" : 1729
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1669658569583,
+      "stop" : 1669658569584,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080",
+      "time" : {
+        "start" : 1669658583852,
+        "stop" : 1669658583917,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //h2[contains(class,heading)]\") should be(visible)",
+      "time" : {
+        "start" : 1669658583917,
+        "stop" : 1669658583954,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1669658583954,
+        "stop" : 1669658584036,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //h3[text()='Оплата по карте']\") should be(visible)",
+      "time" : {
+        "start" : 1669658584036,
+        "stop" : 1669658584062,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Номер карты']/..//input\") set value(4444 4444 4444 4441)",
+      "time" : {
+        "start" : 1669658584062,
+        "stop" : 1669658584410,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Месяц']/..//input\") set value(01)",
+      "time" : {
+        "start" : 1669658584410,
+        "stop" : 1669658584677,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']/..//input\") set value(28)",
+      "time" : {
+        "start" : 1669658584677,
+        "stop" : 1669658584949,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Владелец']/..//input\") set value(Rosemary Greenfelder)",
+      "time" : {
+        "start" : 1669658584949,
+        "stop" : 1669658585317,
+        "duration" : 368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='CVC/CVV']/..//input\") set value(516)",
+      "time" : {
+        "start" : 1669658585317,
+        "stop" : 1669658585456,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Продолжить']\") click()",
+      "time" : {
+        "start" : 1669658585456,
+        "stop" : 1669658585535,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\"By.xpath: //*[text()='Год']//..//*[@class='input__sub']\") should have(text \"Неверно указан срок действия карты\")",
+      "time" : {
+        "start" : 1669658585535,
+        "stop" : 1669658585579,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1669658631707,
+      "stop" : 1669658631774,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.TourPaymentService.test.FieldValidationTest]/[method:shouldValidationErrorCardValidityDateFieldPlus62Months()]"
+  }, {
+    "name" : "feature",
+    "value" : "Поле года"
+  }, {
+    "name" : "story",
+    "value" : "Больше верхней  границы срока действия"
+  }, {
+    "name" : "epic",
+    "value" : "Валидация полей"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "10348@Alex.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.TourPaymentService.test.FieldValidationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.TourPaymentService.test.FieldValidationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldValidationErrorCardValidityDateFieldPlus62Months"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.TourPaymentService.test.FieldValidationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7e1bf048972c3a.json",
+  "parameterValues" : [ ]
+}

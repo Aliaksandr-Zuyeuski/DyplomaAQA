@@ -1,0 +1,100 @@
+{
+  "uid" : "d5906bd51b5818b1",
+  "name" : "Оплата картой , в таблицу order_entity заносится ID транзакции в поле 'payment_id'",
+  "fullName" : "ru.netology.TourPaymentService.test.SqlApiTest.ShouldTransactionIdWrittenInPaymentIdField",
+  "historyId" : "9bdfad58e26558d30333f9fb569cfe6f",
+  "time" : {
+    "start" : 1669658636092,
+    "stop" : 1669658636180,
+    "duration" : 88
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1669658631782,
+      "stop" : 1669658631782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1669658636291,
+      "stop" : 1669658636345,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.TourPaymentService.test.SqlApiTest]/[method:ShouldTransactionIdWrittenInPaymentIdField()]"
+  }, {
+    "name" : "story",
+    "value" : "Корректность занесения данных в таблицу order_entity"
+  }, {
+    "name" : "epic",
+    "value" : "Оплата картой"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "10348@Alex.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldTransactionIdWrittenInPaymentIdField"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5906bd51b5818b1.json",
+  "parameterValues" : [ ]
+}

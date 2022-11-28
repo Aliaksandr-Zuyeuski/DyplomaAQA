@@ -1,0 +1,103 @@
+{
+  "uid" : "16b3e020b7c2c02",
+  "name" : "Кредит по карте отсутствующей в системе, данные не заносятся в БД",
+  "fullName" : "ru.netology.TourPaymentService.test.SqlApiTest.ShouldNotAmountRowsWhenPaymentByCreditFailedCard",
+  "historyId" : "86b5976a8670fedc880648d47053740e",
+  "time" : {
+    "start" : 1669658635687,
+    "stop" : 1669658635777,
+    "duration" : 90
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1669658631782,
+      "stop" : 1669658631782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1669658636291,
+      "stop" : 1669658636345,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.TourPaymentService.test.SqlApiTest]/[method:ShouldNotAmountRowsWhenPaymentByCreditFailedCard()]"
+  }, {
+    "name" : "epic",
+    "value" : "Оплата в кредит"
+  }, {
+    "name" : "feature",
+    "value" : "Оплата картой отсутствующей в системе"
+  }, {
+    "name" : "story",
+    "value" : "Отсутствие новых данных в столицах "
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "10348@Alex.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldNotAmountRowsWhenPaymentByCreditFailedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16b3e020b7c2c02.json",
+  "parameterValues" : [ ]
+}

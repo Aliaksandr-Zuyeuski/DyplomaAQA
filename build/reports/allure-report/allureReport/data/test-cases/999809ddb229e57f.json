@@ -1,0 +1,103 @@
+{
+  "uid" : "999809ddb229e57f",
+  "name" : "Оплата разрешённой картой, статус в базе данных 'APPROVED'",
+  "fullName" : "ru.netology.TourPaymentService.test.SqlApiTest.shouldSuccessStatusIfPaymentByApprovedCard",
+  "historyId" : "679c6a4c9ca3531f2d73048044755d89",
+  "time" : {
+    "start" : 1669658635553,
+    "stop" : 1669658635681,
+    "duration" : 128
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1669658631782,
+      "stop" : 1669658631782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1669658636291,
+      "stop" : 1669658636345,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.TourPaymentService.test.SqlApiTest]/[method:shouldSuccessStatusIfPaymentByApprovedCard()]"
+  }, {
+    "name" : "epic",
+    "value" : "Оплата картой"
+  }, {
+    "name" : "story",
+    "value" : "Статус операции в БД"
+  }, {
+    "name" : "feature",
+    "value" : "Оплата разрешенной картой"
+  }, {
+    "name" : "host",
+    "value" : "Alex"
+  }, {
+    "name" : "thread",
+    "value" : "10348@Alex.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldSuccessStatusIfPaymentByApprovedCard"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.TourPaymentService.test.SqlApiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "999809ddb229e57f.json",
+  "parameterValues" : [ ]
+}
