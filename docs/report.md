@@ -17,7 +17,7 @@
 ### [отчет Allure](https://dyploma-testing-netology.vercel.app/)
 
 ## Общие рекомендации 
-По обнаруженным отказам созданы [issues](https://github.com/Negrustin/DyplomaTestingNetology/issues) 
-принять в работу указанные в [issues](https://github.com/Negrustin/DyplomaTestingNetology/issues) отчеты об ошибках.
+По обнаруженным отказам созданы [issues](https://github.com/Aliaksandr-Zuyeuski/DyplomaAQA/issues) 
+принять в работу указанные в [issues](https://github.com/Aliaksandr-Zuyeuski/DyplomaAQA/issues) отчеты об ошибках.
 
 
