@@ -32,7 +32,7 @@
 
 ## Запуск приложения 
 
-* Клонировать репозиторий https://github.com/Negrustin/Dyploma_Netology на локальную машину командой `git clone`
+* Клонировать репозиторий https://github.com/Aliaksandr-Zuyeuski/DyplomaAQA на локальную машину командой `git clone`
 * Открыть проект в IDEA
 * Для запуска контейнеров с MySql, PostgreSQL и Node.js запустить docker-compose.yml, использовав команду `docker-compose up`, далее в случае перезапуска приложения(контейнеров)
   или возникших проблем используем `docker-compose up -d --force-recreat`
